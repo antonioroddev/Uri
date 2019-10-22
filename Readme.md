@@ -1,6 +1,4 @@
-#CUrso do git
+AQUI GUARDAREI TODAS AS MINHAS RESOLUÇÕES DAS QUESTÕES DO URI
 
-Este é um repositorio teste para ensinar
-
-
-Gostou do curso ? quer mais, ajude com uma doação. até um café é valido
+Utilizarei como principal, a linguagem python, mas também
+postarei resoluções em outras linguagens. 
