@@ -1,4 +1,1 @@
-TODAS AS MINHAS RESOLUÇÕES ACEITAS NO URI
-
-Utilizarei como principal a linguagem python, mas também
-postarei resoluções em outras linguagens. :D
+Resoluções dos problemas resolvidos na plataforma URI Judgment/Beecrowd
