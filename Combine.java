@@ -21,15 +21,12 @@ public static void main(String[] args) throws IOException{
             index++;
         }
 
-        while(index < words[0].length()){
-            combinedWord = combinedWord + words[0].charAt(index);
-            index++;
+        if (index < words[0].length()){
+            combinedWord = combinedWord + words[0].substring(index);
         }
 
-
-        while(index < words[1].length()){
-            combinedWord = combinedWord + words[1].charAt(index);
-            index++;
+        if(index < words[1].length()){
+            combinedWord = combinedWord + words[1].substring(index);
         }
 
         System.out.println(combinedWord);
