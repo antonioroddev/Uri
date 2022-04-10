@@ -11,24 +11,24 @@ public static void main(String[] args) throws IOException{
 
     while(scan.hasNext()){
 
-        String[] palavras = scan.nextLine().split(" ");
+        String[] words = scan.nextLine().split(" ");
 
         int index = 0;
         String combinedWord ="";
-        
-        while(index < palavras[0].length() && index < palavras[1].length()){
-            combinedWord = combinedWord + palavras[0].charAt(index) + palavras[1].charAt(index);
+
+        while(index < words[0].length() && index < words[1].length()){
+            combinedWord = combinedWord + words[0].charAt(index) + words[1].charAt(index);
             index++;
         }
 
-        while(index < palavras[0].length()){
-            combinedWord = combinedWord + palavras[0].charAt(index);
+        while(index < words[0].length()){
+            combinedWord = combinedWord + words[0].charAt(index);
             index++;
         }
 
 
-        while(index < palavras[1].length()){
-            combinedWord = combinedWord + palavras[1].charAt(index);
+        while(index < words[1].length()){
+            combinedWord = combinedWord + words[1].charAt(index);
             index++;
         }
 
